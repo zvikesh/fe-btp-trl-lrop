@@ -1,0 +1,11 @@
+@EndUserText.label: 'Airline Carriers'
+define service ZVKS_UI_SD_AIRLINE_CARRIER {
+  expose ZVKS_C_Carrier            as AirlineCarrier;
+  expose ZVKS_C_CarrierContact     as AirlineContact;
+  expose ZVKS_C_AboutCarrier       as AboutAirline;
+  expose ZVKS_C_Connection         as Connection;
+  expose ZVKS_C_DepartureAirport   as DepartureAirport;
+  expose ZVKS_C_DestinationAirport as DestinationAirport;
+  expose ZVKS_C_Flight             as Flight;
+  expose ZVKS_C_FlightChart;
+}
